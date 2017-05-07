@@ -1,0 +1,104 @@
+@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+*{
+	border: 1px solid green;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inconsolata', monospace;
+}
+
+/*This is basically the container*/
+.xop-section {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 6% 2%;
+}
+
+/* For the ul */
+.xop-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+/* This is styling for internet explorer */
+.xop-grid:after {
+	clear: both;
+}
+
+.xop-grid:after, .xop-grid:before {
+	content: "";
+	display: table;
+}
+
+/* Styling for  */
+
+.xop-grid li {
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.xop-box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+	border-radius: 10px;
+	-webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+	transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.xop-box:hover {
+	transform: scale(1.05);
+}
+
+.xop-img-1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("coming.jpg");
+}
+
+.xop-img-2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("coming.jpg");
+}
+
+.xop-img-3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("coming.jpg");
+
+}
+
+.xop-img-4 {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10)), url("road.jpg");
+
+}
+
+.xop-info {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+ 
+.xop-info h3 {
+    font-weight: 400;
+	color: #fff;
+	font-size: 42px;
+	margin: 0 30px;
+	padding: 100px 0 0 0;
+	line-height:1.5;
+}
+ 
+.xop-info p {
+	color: #fff;
+	padding: 4px 5px;
+	margin: 0 30px;
+	font-size: 14px;
+	line-height:2;
+}
