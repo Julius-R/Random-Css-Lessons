@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+.box1, .box2, .box3 {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+}
+
+.box1 {
+  background-color: red;
+/*  transform: translate(50px) rotate(45deg);*/
+}
+.box1:hover {
+  transform: translate(50px) rotate(45deg) scale(1.5);
+  transition: 1.5s;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: green;
+  transform: translate(100px, -150px);
+}

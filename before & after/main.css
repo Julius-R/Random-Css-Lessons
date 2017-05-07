@@ -1,0 +1,26 @@
+
+
+body {
+	margin: 0; 
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+}
+
+/* before and after are used to add styling and content before or after an element. */
+
+h1:before {
+	content: '';
+	border: 1px solid pink;
+}
+
+h1 {
+	border: 1px solid green;
+}
+
+h1:after {
+	content: '';
+	border: 1px solid pink;
+	transform: rotate(-45deg);
+}
+
