@@ -1,0 +1,50 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.nav-links {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%; }
+  .nav-links li {
+    list-style: none;
+    padding: 15px; }
+    .nav-links li img {
+      width: 100px;
+      height: 100px; }
+
+header {
+  height: 100vh;
+  background-image: url("imgs/hero-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  header .hero-container {
+    display: flex;
+    height: 100%;
+    text-align: center; }
+    header .hero-container .hero-content {
+      margin: auto;
+      color: #000; }
+      header .hero-container .hero-content button {
+        height: 50px;
+        width: 200px;
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #111;
+        border-radius: 10px;
+        font-size: 16px; }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */

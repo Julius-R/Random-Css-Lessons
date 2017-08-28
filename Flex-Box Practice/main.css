@@ -1,0 +1,47 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(22, 215, 221);
+}
+
+.container {
+  max-width: 960px;
+  width: 85%;
+  margin: 225px auto;
+  background-color: #fff;
+  
+  text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  background-color: rgb(19, 224, 24);
+  border-radius: 5px;
+}
+
+.box1 {
+ width: 100%;
+}
+
+
+.box6 {
+ width: 100%;
+}

@@ -1,0 +1,196 @@
+@import url("https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Oxygen+Mono|Pacifico");
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url("imgs/coffee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Oxygen Mono', monospace;
+  color: #fcfcfc;
+}
+
+/* Navigation Bar */
+nav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+nav .closebtn {
+  display: none;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fcfcfc;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li:first-child{
+  padding-top: 150px;
+}
+
+nav ul li{
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+nav ul li .nav-text {
+  text-align: center;
+  display: inline-block;
+}
+
+nav ul li a{
+  color: #33E0FC;
+  text-decoration: none;
+}
+
+.bar-icon {
+  background-color: #33E0FC;
+  height: 5px;
+  width: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  justify-content: center;
+  transform: rotate(90deg);
+}
+
+.light {
+  box-shadow: 0 0 20px 5px;
+}
+
+.bar-icon:hover{
+  box-shadow: 0 0 20px 5px;
+}
+
+.openMe {
+  display: none;
+}
+
+span .fa {
+  color: #33E0FC;
+  padding: 15px;
+  font-size: 32px;
+  display: none;
+}
+
+h1 .fa {
+  font-size: 32px;
+}
+
+
+/* Page Content */
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 6% 2%;
+}
+
+.hero {
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 60%;
+  text-align: center;
+}
+
+.hero i {
+  color: #33E0FC;
+}
+
+.hero p i:hover{
+  font-size: 26px;
+}
+
+p {
+  color: #a5a4a7;
+}
+
+#name{
+  font-family: 'Pacifico', cursive;
+  font-size: 34px;
+  color: #33E0FC;
+  margin-bottom: 90px;
+}
+
+
+.jumbo-hero {
+  margin-left: 20%;
+  width: 60%;
+  text-align: center;
+}
+
+.skills {
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.skills li i {
+  font-size: 24px;
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 768px){
+  nav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  background-color: rgba(1,1,1, 0.4);
+}
+
+nav .closebtn {
+  display: block;
+  position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  .openMe {
+    display: block;
+  }
+  span .fa {
+    display: block;
+  }
+
+.skills li {
+  display: block;
+  list-style: none;
+  padding: 10px;
+}
+
+.jumbo-hero {
+    margin-left: 0;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 425px){
+  .hero {
+    margin-left: 0;
+    width: 100%;
+  }
+}

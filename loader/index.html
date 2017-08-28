@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loader</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+      var sec = 3;
+      function countDown(){
+
+        sec--;
+
+        var load_screen = document.getElementById('loadme');
+        if (sec <= 0) {
+          load_screen.style.top = "-100%";
+      // document.body.removeChild(load_screen);
+      clearTimeout(timer);
+        }
+      }
+
+      var timer = setInterval('countDown()',1250);
+    </script>
+  </head>
+  <body>
+
+  <div id="loadme" class="loadscreen">
+    <div class="loader"></div>
+    <p>Loading...</p>
+  </div>
+    <script src="http://localhost:35729/livereload.js"></script>
+  </body>
+</html>

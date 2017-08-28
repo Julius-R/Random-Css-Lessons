@@ -1,26 +1,22 @@
 
 
 body {
-	margin: 0; 
+	margin: 0;
 	padding: 0;
-	background-color: #333;
+	background-color: #fff;
+}
+
+/*p {
+	//For button styled p-tags
+	color: #333;
+	background-color: rgb(25, 255, 90);
+	width: 200px;
+	padding: 10px;
+	border-radius: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 3px solid rgb(49, 214, 120);
 	text-align: center;
-}
-
-/* before and after are used to add styling and content before or after an element. */
-
-h1:before {
-	content: '';
-	border: 1px solid pink;
-}
-
-h1 {
-	border: 1px solid green;
-}
-
-h1:after {
-	content: '';
-	border: 1px solid pink;
-	transform: rotate(-45deg);
-}
-
+	box-shadow: 5px 5px 5px rgb(49, 214, 120);
+	cursor: pointer;
+}*/
